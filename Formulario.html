@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="" method="">
+        <label for="nombre">Tu nombre es: </label>
+        <input type="text" id="nombre" placeholder="Nombre" maxlength="10" name="nombre">
+        <br />
+        <input type="email" placeholder="Correo" name="correo">
+        <br />
+        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+        <br />
+
+        <label for="pais">Pais: </label>
+            <select name="pais" id="pais">
+            <option value="mexico"> Mexico </option>
+            <option value="españa"> España </option>
+            <option value="argentina"> Argentina </option>
+            </select>
+            <br />
+
+            <input type="radio" name="genero" value="Hombre" id="hombre"><label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="Mujer" id="mujer"><label for="mujer">Mujer</label>
+
+            <br />
+            <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y codiciones</label>
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
